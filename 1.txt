@@ -1,0 +1,79 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+	int num;
+
+	cout << "[1] Торговый вес " << endl << "[2] Аптекарный вес" << endl << endl;
+
+	cout << "[3] Выйти" << endl << endl;
+
+	cin >> num;
+	system("cls");
+
+
+	switch (num)
+	{
+	case 1:
+		cout << "Торговый вес : " << endl << endl;
+
+		cout << "[1]  саженей в метры  " << endl << endl;
+		cout << "[2] дюймы в сантиметры " << endl << endl;
+		cout << "[3] футов в метры " << endl << endl;
+		cout << "[4] драхм в граммы " << endl << endl;
+		cout << "[5]  унций в граммы" << endl << endl;
+		cout << "[6] фунтов в килограммы " << endl << endl;
+		cout << "[7] аршинов в метры" << endl << endl;
+		cout << "[8] золотников в граммы " << endl << endl;
+		cout << "[9]  дюймов в миллиметры " << endl << endl;
+
+		cin >> num;
+		system("cls");
+	}
+
+		switch (num)
+		{
+		case 1:
+			cout << "1 сажень равна 2, 1366 м " << endl << endl;
+			break;
+
+		case 2:
+			cout << "1 дюйм равен 2.5 см" << endl << endl;
+			break;
+
+		case 3:
+			cout << "1 фут равен 0,3048 м" << endl << endl;
+			break;
+
+		case 4:
+			cout << "1 драхма равна 3, 7325 г" << endl << endl;
+			break;
+
+		case 5:
+			cout << "1 унция равна 29, 86 г" << endl << endl;
+			break;
+
+		case 6:
+			cout << "1 фунт равен 0, 40951 кг" << endl << endl;
+			break;
+
+		case 7:
+			cout << "1 аршин равен 0, 7112 м" << endl << endl;
+			break;
+
+		case 8:
+			cout << "1 золотник равен 4,2657 г" << endl << endl;
+			break;
+
+		case 9:
+			cout << "1 дюйм равен 25,3995 мм " << endl << endl;
+			break;
+
+
+		}
+		return 0;
+
+
+	}
